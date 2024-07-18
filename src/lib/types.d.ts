@@ -16,11 +16,14 @@
  *	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-import Presentations from "./Presentations.svelte";
-import "./main.css";
+import type { SvelteComponent } from "svelte";
 
-const pres = new Presentations({
-  target: document.getElementById("app")!,
-});
+// Useful class containing metadata about a presentation
+export class PresentationCardSchema {
+  title: string;
+  path: string;
+  precedent?: number = 10;
+  component: typeof SvelteComponent<any>;
 
-export default pres;
+  photo_url?: string;
+}

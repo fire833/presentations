@@ -1,0 +1,87 @@
+/*
+*	Copyright (C) 2024 Kendall Tauser
+*
+*	This program is free software; you can redistribute it and/or modify
+*	it under the terms of the GNU General Public License as published by
+*	the Free Software Foundation; either version 2 of the License, or
+*	(at your option) any later version.
+*
+*	This program is distributed in the hope that it will be useful,
+*	but WITHOUT ANY WARRANTY; without even the implied warranty of
+*	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*	GNU General Public License for more details.
+*
+*	You should have received a copy of the GNU General Public License along
+*	with this program; if not, write to the Free Software Foundation, Inc.,
+*	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxygen:wght@300;400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+a {
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  color: #f8d6dc;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #db6a6a;
+  text-shadow: 0 0 5px #723c3c;
+}
+
+html,
+body,
+.root {
+  display: flex;
+  margin: 0;
+  background-color: #282a2c;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  min-width: 450px;
+  font-family: "Oxygen", monospace;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: #ecebec;
+  text-align: center;
+}
+
+div {
+  display: flex;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ecebec;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
