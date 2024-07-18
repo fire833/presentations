@@ -1,9 +1,11 @@
 <script lang="ts">
+  import "reveal.js/dist/reveal.css";
+
   import { Route, Router } from "svelte-routing";
-  import Demo from "./presentations/Demo.svelte";
   import Home from "./Home.svelte";
   import type { PresentationCardSchema } from "./lib/types.js";
   import Presentation from "./Presentation.svelte";
+  import Demo from "./presentations/Demo.svelte";
 
   const presentations: Array<PresentationCardSchema> = new Array(
     {

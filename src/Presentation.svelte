@@ -1,6 +1,5 @@
 <script lang="ts">
   import Reveal from "reveal.js";
-  import "reveal.js/dist/reveal.css";
   import { onMount, SvelteComponent, tick } from "svelte";
   import { defaultRevealOptions } from "./lib/revealConfig.js";
   import type { PresentationCardSchema } from "./lib/types.js";
@@ -10,30 +9,37 @@
   export let presentations: Array<PresentationCardSchema>;
 
   let found: boolean = false;
+  let title: string;
   let component: typeof SvelteComponent;
 
   console.log(`searching for and loading presentation ${name}`);
   for (let p of presentations) {
     if (p.path === name) {
       found = true;
+      title = p.title;
       component = p.component;
       break;
     }
   }
 
   if (!found) {
+    console.error(`presentation ${name} not found, redirect home`);
     navigate("/");
   }
 
   onMount(async () => {
     await tick();
-    const deck = new Reveal(defaultRevealOptions);
-    deck.initialize();
+    const rev = new Reveal(defaultRevealOptions);
+    await rev.initialize();
   });
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
+
 <div class="reveal">
   <div class="slides">
-    {component}
+    <svelte:component this={component} />
   </div>
 </div>

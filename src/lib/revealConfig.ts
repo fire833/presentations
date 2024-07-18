@@ -17,10 +17,22 @@
  */
 
 import type { Options } from "reveal.js";
-// import RevealMath from "reveal.js/plugin/math/math/index.js";
+import Highlight from "reveal.js/plugin/highlight/highlight";
+import Markdown from "reveal.js/plugin/markdown/markdown";
+import MathReveal from "reveal.js/plugin/math/math";
+import RevealNotes from "reveal.js/plugin/notes/notes";
 
 export const defaultRevealOptions: Options = {
   controls: true,
   progress: true,
-  // plugins: [RevealMath.KaTeX],
+  plugins: [
+    MathReveal.KaTeX,
+    MathReveal.MathJax3,
+    RevealNotes,
+    Highlight,
+    Markdown,
+  ],
+  hash: true,
+  katex: {},
+  mathjax3: {},
 };
