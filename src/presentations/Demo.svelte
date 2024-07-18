@@ -1,8 +1,9 @@
 <script lang="ts">
+  import "reveal.js/dist/theme/black.css";
 </script>
 
-<section data-background-color="darkgrey">
-  <h1>Hello there</h1>
+<section>
+  <h1 style="color: white">Hello there</h1>
 </section>
 <section>Slide 2</section>
 <section>Slide 3</section>
