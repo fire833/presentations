@@ -16,11 +16,11 @@
  *	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-import PresentationsApp from "./PresentationsApp.svelte";
-import "./main.css";
+import type { Options } from "reveal.js";
+// import RevealMath from "reveal.js/plugin/math/math/index.js";
 
-const pres = new PresentationsApp({
-  target: document.getElementById("app")!,
-});
-
-export default pres;
+export const defaultRevealOptions: Options = {
+  controls: true,
+  progress: true,
+  // plugins: [RevealMath.KaTeX],
+};
