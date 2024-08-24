@@ -1,11 +1,11 @@
 <script lang="ts">
-  import "reveal.js/dist/theme/black.css";
+  import Slide from "../lib/components/Slide.svelte";
 </script>
 
-<section>
+<Slide>
   <h1 style="color: white">Hello there</h1>
-</section>
-<section>Slide 2</section>
-<section>Slide 3</section>
-<section>Slide 4</section>
-<section>Slide 5</section>
+</Slide>
+<Slide>Slide 2</Slide>
+<Slide>Slide 3</Slide>
+<Slide>Slide 4</Slide>
+<Slide>Slide 5</Slide>
