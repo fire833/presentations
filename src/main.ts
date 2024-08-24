@@ -20,7 +20,7 @@ import PresentationsApp from "./PresentationsApp.svelte";
 import "./main.css";
 
 const pres = new PresentationsApp({
-  target: document.getElementById("app")!,
+  target: document.getElementById("entry")!,
 });
 
 export default pres;

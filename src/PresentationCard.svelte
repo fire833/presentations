@@ -15,8 +15,9 @@
 
 <style>
   .card-head {
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
     margin: 0.3rem;
+    font-size: small;
   }
 </style>

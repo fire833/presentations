@@ -25,6 +25,7 @@ import RevealNotes from "reveal.js/plugin/notes/notes";
 export const defaultRevealOptions: Options = {
   controls: true,
   progress: true,
+  autoAnimate: true,
   plugins: [
     MathReveal.KaTeX,
     MathReveal.MathJax3,

@@ -29,8 +29,12 @@
 
   onMount(async () => {
     await tick();
+    console.log(
+      `loading in ${name} presentation, creating new reveal context.`
+    );
     const rev = new Reveal(defaultRevealOptions);
     await rev.initialize();
+    console.log(`presentation ${name} loaded`);
   });
 </script>
 
@@ -43,3 +47,5 @@
     <svelte:component this={component} />
   </div>
 </div>
+
+<style></style>
