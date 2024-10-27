@@ -393,7 +393,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte@npm:^3.1.1":
+"@sveltejs/vite-plugin-svelte@npm:^3.1.2":
   version: 3.1.2
   resolution: "@sveltejs/vite-plugin-svelte@npm:3.1.2"
   dependencies:
@@ -439,7 +439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/reveal.js@npm:^5.0.3":
+"@types/reveal.js@npm:^5.0.4":
   version: 5.0.4
   resolution: "@types/reveal.js@npm:5.0.4"
   checksum: 10c0/39b30a962ad8c25d49d1194640074a0ab029538963ab2cb6d021370ad7c9b52b6fa4b8eac959e6e05080611786897abf25e725e7a978e1376d10767a73d342ea
@@ -1499,16 +1499,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "presentations@workspace:."
   dependencies:
-    "@sveltejs/vite-plugin-svelte": "npm:^3.1.1"
+    "@sveltejs/vite-plugin-svelte": "npm:^3.1.2"
     "@tsconfig/svelte": "npm:^5.0.4"
-    "@types/reveal.js": "npm:^5.0.3"
+    "@types/reveal.js": "npm:^5.0.4"
     reveal.js: "npm:^5.1.0"
-    svelte: "npm:^4.2.18"
-    svelte-check: "npm:^3.8.4"
+    svelte: "npm:^4.2.19"
+    svelte-check: "npm:^3.8.6"
     svelte-routing: "npm:^2.13.0"
-    tslib: "npm:^2.6.3"
-    typescript: "npm:^5.5.3"
-    vite: "npm:^5.3.4"
+    tslib: "npm:^2.8.0"
+    typescript: "npm:^5.6.3"
+    vite: "npm:^5.4.10"
   languageName: unknown
   linkType: soft
 
@@ -1802,7 +1802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:^3.8.4":
+"svelte-check@npm:^3.8.6":
   version: 3.8.6
   resolution: "svelte-check@npm:3.8.6"
   dependencies:
@@ -1882,7 +1882,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^4.2.18":
+"svelte@npm:^4.2.19":
   version: 4.2.19
   resolution: "svelte@npm:4.2.19"
   dependencies:
@@ -1927,14 +1927,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.6.3":
+"tslib@npm:^2.8.0":
   version: 2.8.0
   resolution: "tslib@npm:2.8.0"
   checksum: 10c0/31e4d14dc1355e9b89e4d3c893a18abb7f90b6886b089c2da91224d0a7752c79f3ddc41bc1aa0a588ac895bd97bb99c5bc2bfdb2f86de849f31caeb3ba79bbe5
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.0.3, typescript@npm:^5.5.3":
+"typescript@npm:^5.0.3, typescript@npm:^5.6.3":
   version: 5.6.3
   resolution: "typescript@npm:5.6.3"
   bin:
@@ -1944,7 +1944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.0.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.5.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.0.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.6.3#optional!builtin<compat/typescript>":
   version: 5.6.3
   resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"
   bin:
@@ -1972,7 +1972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.3.4":
+"vite@npm:^5.4.10":
   version: 5.4.10
   resolution: "vite@npm:5.4.10"
   dependencies:
