@@ -82,7 +82,27 @@
   </ul>
 </Slide>
 
-<Slide>Demo time</Slide>
+<Slide>
+  Demo time (Resources can be downloaded to tinker with or use yourself)
+
+  <ul class="lists">
+    <li>
+      <a href="https://static.tauser.us/k8s_demo/grafana_config.yaml"
+        >https://static.tauser.us/k8s_demo/grafana_config.yaml</a
+      >
+    </li>
+    <li>
+      <a href="https://static.tauser.us/k8s_demo/grafana_service.yaml"
+        >https://static.tauser.us/k8s_demo/grafana_service.yaml</a
+      >
+    </li>
+    <li>
+      <a href="https://static.tauser.us/k8s_demo/grafana_deploy.yaml"
+        >https://static.tauser.us/k8s_demo/grafana_deploy.yaml</a
+      >
+    </li>
+  </ul>
+</Slide>
 
 <style>
   .lists {
