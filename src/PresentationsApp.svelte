@@ -6,25 +6,25 @@
   import type { PresentationCardSchema } from "./lib/types.js";
   import Presentation from "./Presentation.svelte";
   import Demo from "./presentations/Demo.svelte";
-  import Kubernetes from "./presentations/Kubernetes.svelte";
+  import KubernetesIntro from "./presentations/KubernetesIntro.svelte";
   import MastersThesis from "./presentations/MastersThesis.svelte";
 
   const presentations: Array<PresentationCardSchema> = new Array(
-    {
-      title: "Demo",
-      path: "demo",
-      component: Demo,
-    },
+    // {
+    //   title: "Demo",
+    //   path: "demo",
+    //   component: Demo,
+    // },
     {
       title: "Introduction to Kubernetes",
       path: "k8s_intro",
-      component: Kubernetes,
-    },
-    {
-      title: "Master's Thesis",
-      path: "thesis/masters",
-      component: MastersThesis,
+      component: KubernetesIntro,
     }
+    // {
+    //   title: "Master's Thesis",
+    //   path: "thesis/masters",
+    //   component: MastersThesis,
+    // }
   );
 </script>
 

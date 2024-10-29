@@ -1,8 +1,8 @@
 <script lang="ts">
-  export let trim: boolean;
-  export let noescape: boolean;
-  export let lineNumbers: boolean;
-  export let lineStartFrom: number;
+  export let trim: boolean = false;
+  export let noescape: boolean = false;
+  export let lineNumbers: boolean = true;
+  export let lineStartFrom: number = 1;
 </script>
 
 <pre>
