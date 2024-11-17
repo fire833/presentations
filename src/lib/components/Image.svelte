@@ -1,6 +1,6 @@
 <script lang="ts">
   export let source: string = "";
-  export let description: string = "Unkknown";
+  export let description: string = "Unknown";
   export let addFooter: boolean = true;
 </script>
 
