@@ -31,6 +31,7 @@
       Entity - File, IP, URL, etc. that is evidence associated with an alert.
     </li>
     <li>Incident - Logical groupings of related alerts.</li>
+    <li>Disruption - Threat mitigated</li>
     <li>
       Entity Reputation - Propability of an entity being benign or malicious
       (usually real-valued between 0 and 1).
