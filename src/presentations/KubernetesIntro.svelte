@@ -11,6 +11,7 @@
 <Slide>
   <Image
     source="https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg"
+    addFooter={false}
   ></Image>
   <h6>
     Control plane can be comprised of many nodes, where every control plane

@@ -8,6 +8,7 @@
   import Demo from "./presentations/Demo.svelte";
   import KubernetesIntro from "./presentations/KubernetesIntro.svelte";
   import MastersThesis from "./presentations/MastersThesis.svelte";
+  import WebScaleGraphMining from "./presentations/WebScaleGraphMining.svelte";
 
   const presentations: Array<PresentationCardSchema> = new Array(
     // {
@@ -19,6 +20,11 @@
       title: "Introduction to Kubernetes",
       path: "k8s_intro",
       component: KubernetesIntro,
+    },
+    {
+      title: "Web Scale Graph Mining",
+      path: "ns_paper",
+      component: WebScaleGraphMining,
     }
     // {
     //   title: "Master's Thesis",
