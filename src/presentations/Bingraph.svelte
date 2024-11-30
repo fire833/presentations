@@ -47,7 +47,7 @@
 <Slide>
   <h2>Computed statistics</h2>
 
-  <ul>
+  <ul class="lists">
     <li>
       Decided knowing "most important" libraries is important, so focused on
       centralities.
