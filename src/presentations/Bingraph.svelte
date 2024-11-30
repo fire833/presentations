@@ -86,10 +86,28 @@
   <a href="https://static.tauser.us/bingraph/amazonlinux2023.svg">Link</a>
 </Slide>
 
+<!-- <Slide>
+  <Image
+    source={"https://static.tauser.us/bingraph/gpel.svg"}
+    description={"The bingraph for a CS GPEL Machine (Ubuntu 24.04)."}
+  ></Image>
+  <a href="https://static.tauser.us/bingraph/gpel.svg">Link</a>
+</Slide> -->
+
 <Slide>
-  <a href="https://static.tauser.us/bingraph/debianbookworm.svg"
-    >Debian Bookworm Container</a
-  >
+  <Image
+    source={"https://static.tauser.us/bingraph/arch.svg"}
+    description={"The bingraph for an Arch Linux Container Image."}
+  ></Image>
+  <a href="https://static.tauser.us/bingraph/arch.svg">Link</a>
+</Slide>
+
+<Slide>
+  <Image
+    source={"https://static.tauser.us/bingraph/debianbookworm.svg"}
+    description={"The bingraph for a Debian Bookworm (12) Container Image."}
+  ></Image>
+  <a href="https://static.tauser.us/bingraph/debianbookworm.svg">Link</a>
 </Slide>
 
 <Slide>
