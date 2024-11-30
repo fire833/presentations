@@ -66,6 +66,14 @@
 </Slide>
 
 <Slide>
+  <video controls={true}>
+    <track kind="captions" />
+    <source src="https://static.tauser.us/bingraph/demo.mp4" type="video/mp4" />
+    Your browser does not support the video tag
+  </video>
+</Slide>
+
+<Slide>
   <h2>Results</h2>
 </Slide>
 
@@ -80,19 +88,40 @@
 
 <Slide>
   <Image
+    source={"https://static.tauser.us/bingraph/debian12.jpeg"}
+    description={"Degree Distribution for Real-world Debian system"}
+  ></Image>
+</Slide>
+
+<Slide>
+  <Image
     source={"https://static.tauser.us/bingraph/amazonlinux2023.svg"}
     description={"The bingraph for an Amazon Linux 2023 Container Image."}
   ></Image>
   <a href="https://static.tauser.us/bingraph/amazonlinux2023.svg">Link</a>
 </Slide>
 
-<!-- <Slide>
+<Slide>
+  <Image
+    source={"https://static.tauser.us/bingraph/amazonlinux2023.jpeg"}
+    description={"Degree Distribution for Amazon Linux 2023 Image"}
+  ></Image>
+</Slide>
+
+<Slide>
   <Image
     source={"https://static.tauser.us/bingraph/gpel.svg"}
     description={"The bingraph for a CS GPEL Machine (Ubuntu 24.04)."}
   ></Image>
   <a href="https://static.tauser.us/bingraph/gpel.svg">Link</a>
-</Slide> -->
+</Slide>
+
+<Slide>
+  <Image
+    source={"https://static.tauser.us/bingraph/gpel.jpeg"}
+    description={"Degree Distribution for CS GPEL Machine"}
+  ></Image>
+</Slide>
 
 <Slide>
   <Image
@@ -104,10 +133,24 @@
 
 <Slide>
   <Image
+    source={"https://static.tauser.us/bingraph/arch.jpeg"}
+    description={"Degree Distribution for Arch Container Image"}
+  ></Image>
+</Slide>
+
+<Slide>
+  <Image
     source={"https://static.tauser.us/bingraph/debianbookworm.svg"}
     description={"The bingraph for a Debian Bookworm (12) Container Image."}
   ></Image>
   <a href="https://static.tauser.us/bingraph/debianbookworm.svg">Link</a>
+</Slide>
+
+<Slide>
+  <Image
+    source={"https://static.tauser.us/bingraph/debianbookworm.jpeg"}
+    description={"Degree Distribution for Debian Bookworm Image"}
+  ></Image>
 </Slide>
 
 <Slide>
