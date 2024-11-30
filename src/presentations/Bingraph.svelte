@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Image from "../lib/components/Image.svelte";
   import Slide from "../lib/components/Slide.svelte";
 </script>
 
@@ -69,15 +70,20 @@
 </Slide>
 
 <Slide>
-  <a href="https://static.tauser.us/bingraph/debian12real.svg"
-    >Real world Debian system</a
-  >
+  <Image
+    source={"https://static.tauser.us/bingraph/debian12real.svg"}
+    description={"The bingraph for a real-world Debian 12 system."}
+  ></Image>
+
+  <a href="https://static.tauser.us/bingraph/debian12real.svg">Link</a>
 </Slide>
 
 <Slide>
-  <a href="https://static.tauser.us/bingraph/amazonlinux2023.svg"
-    >Amazon Linux 2023 Container</a
-  >
+  <Image
+    source={"https://static.tauser.us/bingraph/amazonlinux2023.svg"}
+    description={"The bingraph for an Amazon Linux 2023 Container Image."}
+  ></Image>
+  <a href="https://static.tauser.us/bingraph/amazonlinux2023.svg">Link</a>
 </Slide>
 
 <Slide>
