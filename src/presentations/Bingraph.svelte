@@ -153,11 +153,11 @@
   ></Image>
 </Slide>
 
-<Slide>
+<!-- <Slide>
   <a href="https://static.tauser.us/bingraph/ubuntu2410.svg"
     >Ubuntu 24.04 Container</a
   >
-</Slide>
+</Slide> -->
 
 <style>
   .lists {
