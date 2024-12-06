@@ -29,8 +29,8 @@
 
   <ul class="lists">
     <li>
-      Scans a system's binary and library "paths" (and defaults to scanning
-      directories in the user's PATH)
+      Rust CLI tool that scans a system's binary and library "paths" (and
+      defaults to scanning directories in the user's PATH)
     </li>
     <li>
       Generates a directed graph of the system's binaries, and libraries, along
